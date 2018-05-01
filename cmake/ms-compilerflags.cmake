@@ -2,7 +2,7 @@
 include(CheckCXXCompilerFlag)
 
 # shared CXX flags for all source code & tests
-set(MS_FLAGS "-std=c++11 -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable")
+set(MS_FLAGS "-std=c++14 -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable")
 
 # static linking
 IF(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
